@@ -1,0 +1,60 @@
+{
+	"events": [
+		{
+			"timing":0.0,
+			"type":"SetAlienPos",
+			"data":"pos;0.5 0.5"
+		},
+		{
+			"timing":0.0,
+			"type":"ShakeAlien",
+			"data":"amount;3.5"
+		},
+		{
+			"timing":0.0,
+			"type":"ShowText",
+			"data":"text;NOOOOOOooOoooo!;duration;8;face;false"
+		},
+		{
+			"timing":0.0,
+			"type":"FaceChange",
+			"data":"AlienFaces/Normal/7"
+		},
+		{
+			"timing":2,
+			"type":"ShowText",
+			"data":"text;Just kidding! You thought you could beat me, Zeek, the most powerful alien in the galaxy?! You will never get past this!;duration;30;face;false"
+		},
+		{
+			"timing":2,
+			"type":"PlaySound",
+			"data":"sound;resetSound"
+		},
+		{
+			"timing":2,
+			"type":"PlaySound",
+			"data":"sound;turningSound"
+		},
+		{
+			"timing":2,
+			"type":"CameraShake",
+			"data":"amount;150;decay;2.5"
+		},
+		{
+			"timing":2,
+			"type":"StopShaking",
+			"data":""
+		},
+		{
+			"timing":2,
+			"type":"FaceChange",
+			"data":"random_mad"
+		},
+		{
+			"timing":8.5,
+			"type":"MoveAlien",
+			"data":"pos;0.5 2;duration;1.3" 
+		}
+	],
+	"duration":12.0
+}

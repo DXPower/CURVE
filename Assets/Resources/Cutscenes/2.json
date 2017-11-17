@@ -1,0 +1,35 @@
+{
+	"events": [
+		{
+			"timing":0.0,
+			"type":"SetAlienPos",
+			"data":"pos;0.5 0.5"
+		},
+		{
+			"timing":0.0,
+			"type":"ShowText",
+			"data":"text;NO! You are ruining my plan! Grrr!;duration;10;face;true"
+		},
+		{
+			"timing":0.8,
+			"type":"MoveAlien",
+			"data":"pos;0.5 0.2;duration;.8" 
+		},
+		{
+			"timing":1.5,
+			"type":"MoveAlien",
+			"data":"pos;0.7 0.2;duration;1" 
+		},
+		{
+			"timing":2.5,
+			"type":"MoveAlien",
+			"data":"pos;0.7 0.5;duration;.7" 
+		},
+		{
+			"timing":4.5,
+			"type":"MoveAlien",
+			"data":"pos;-2 0.5;duration;1" 
+		}
+	],
+	"duration":7
+}
