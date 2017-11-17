@@ -1,0 +1,50 @@
+{
+	"events": [
+		{
+			"timing":0.0,
+			"type":"SetAlienPos",
+			"data":"pos;0 2"
+		},
+		{
+			"timing":1.75,
+			"type":"MoveAlien",
+			"data":"pos;0.5 0.5;duration;0.5" 
+		},
+		{
+			"timing":2.5,
+			"type":"CameraShake",
+			"data":"amount;75;decay;1.5"
+		},
+		{
+			"timing":2.5,
+			"type":"PlaySound",
+			"data":"sound;resetSound"
+		},
+		{
+			"timing":2.5,
+			"type":"ShowText",
+			"data":"text;WHAT! How did you get past my challenge?! Fine! I will just have to make it harder!;duration;10;face;true"
+		},
+		{
+			"timing":4,
+			"type":"MoveAlien",
+			"data":"pos;0.2 0.2;duration;1" 
+		},
+		{
+			"timing":5,
+			"type":"MoveAlien",
+			"data":"pos;0.5 .9;duration;1" 
+		},
+		{
+			"timing":6,
+			"type":"MoveAlien",
+			"data":"pos;.3 .3;duration;1" 
+		},
+		{
+			"timing":8,
+			"type":"MoveAlien",
+			"data":"pos;2 2;duration;1" 
+		}
+	],
+	"duration":11.0
+}
